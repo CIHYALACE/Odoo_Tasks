@@ -29,7 +29,6 @@
                 </form>
             </field>
         </record>
-        
 
         <record id="action_hms_patient" model="ir.actions.act_window">
             <field name="name">Patient</field>
