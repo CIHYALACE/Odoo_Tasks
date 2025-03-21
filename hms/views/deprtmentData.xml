@@ -1,13 +1,13 @@
 <odoo>
     <data>
 
-        <record id="action_hms_patient" model="ir.actions.act_window">
+        <record id="action_hms_department" model="ir.actions.act_window">
             <field name="name">Department</field>
             <field name="res_model">hms.department</field>
             <field name="view_mode">kanban,form</field>
         </record>
 
-        <menuitem id="hms_menu_item" name="Departments" parent="hms_menu" action="action_hms_patient"/>
+        <menuitem id="hms_menu_item" name="Departments" parent="hms_menu" action="action_hms_department"/>
 
     </data>
 </odoo>
