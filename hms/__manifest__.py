@@ -7,7 +7,6 @@
     'data': [
         'security/ir.model.access.csv',
         'views/patientsData.xml',
-        'views/patient_views.xml',
     ],
     'installable': True,
     'application': True,

@@ -16,6 +16,6 @@ class Patient(models.Model):
         ('O+', 'O+'), ('O-', 'O-')
     ], string="Blood Type")
     pcr = fields.Boolean(string="PCR Test")
-    image = fields.Binary(string="Image")
+    image = fields.Image(string="Image")
     address = fields.Char(string="Address")
     age = fields.Integer(string="Age")

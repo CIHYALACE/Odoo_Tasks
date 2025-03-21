@@ -1,14 +1,14 @@
 <odoo>
-    <!-- Main Menu -->
-    <menuitem id="hms_menu" name="Patient"/>
+    <data>
 
-    <!-- Define Action First -->
-    <record id="action_hms_patient" model="ir.actions.act_window">
-        <field name="name">Patients</field>
-        <field name="res_model">hms.patient</field>
-        <field name="view_mode">tree,form</field>
-    </record>
+        <record id="action_hms_patient" model="ir.actions.act_window">
+            <field name="name">Patient</field>
+            <field name="res_model">hms.patient</field>
+            <field name="view_mode">kanban,form</field>
+        </record>
 
-    <!-- Now, Reference the Action in Menu -->
-    <menuitem id="hms_menu_item" name="Patients" parent="hms_menu" action="action_hms_patient"/>
+        <menuitem id="hms_menu" name="HMS"/>
+        <menuitem id="hms_menu_item" name="Patients" parent="hms_menu" action="action_hms_patient"/>
+
+    </data>
 </odoo>
