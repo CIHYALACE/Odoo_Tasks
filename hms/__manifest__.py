@@ -6,7 +6,8 @@
     'depends': ['base', 'web'],  # Added 'web' dependency
     'data': [
         'security/ir.model.access.csv',
-        'views/patientsData.xml',
+        'views/views.xml',
+        
     ],
     'installable': True,
     'application': True,
